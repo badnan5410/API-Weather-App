@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButto
 from PyQt5.QtCore import Qt
 from requests import HTTPError, RequestException
 
-
 class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
@@ -161,5 +160,3 @@ if __name__ == "__main__":
     weather_app = WeatherApp()
     weather_app.show()
     sys.exit(app.exec_())
-
-
